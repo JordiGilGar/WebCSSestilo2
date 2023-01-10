@@ -1,0 +1,109 @@
+body {
+	background-color: #000;
+	background-image: url("imagenes/fondo.jpg");
+	color: #eef;
+	font-family: Verdana, Calibri, Arial;
+	font-size: 14px;
+	text-align: center;
+}
+
+:link {
+	color: #5df;
+}
+
+:visited {
+	color: #48e;
+}
+
+strong {
+	color: #fff;
+}
+
+blockquote {
+	border-width: 1px;
+	border-style: ridge;
+	border-color: #aaf;
+	font-style: italic;
+}
+
+dt {
+	color: #fff;
+	text-align: left;
+	margin-left: 5em;
+}
+
+dd {
+	text-align: left;
+	margin-left: 6em;
+	padding-bottom: 1em;
+}
+
+ul {
+	text-align: left;
+	margin-left: 40%;
+}
+
+table {
+	border-width: 4px;
+	border-style: ridge;
+	border-color: #aaf;
+	margin-left: auto;
+	margin-right: auto;
+	color: #ddf;
+}
+
+caption {
+	font-size: 22px;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+tr {
+	background-color: #113;
+}
+
+td {
+	text-align: justify;
+}
+
+h1, h2, h3, h4 {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-size: 120%
+}
+
+select, input {
+	margin-top: 1em;
+	margin-down: 1em;
+}
+
+.divMain {
+	border-width: 1px;
+	border-style: ridge;
+	border-color: #aaf;
+	padding-bottom: 1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 15%;
+	margin-right: 15%;
+	background-color: #113;
+}
+
+#divPregunta2 {
+	text-align: left;
+	margin-left: 44%;
+	margin-bottom: 1em;
+}
+
+#divPregunta3 {
+	text-align: left;
+	margin-left: 30%;
+	margin-bottom: 1em;
+}
+
+#mainTitle {
+	font-size: 200%;
+}

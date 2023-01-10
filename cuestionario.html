@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xml:lang="es"
+      lang="es">
+	  
+	<head>
+		
+		<link href="estilo.css" rel="stylesheet" type="text/css" />
+		<title>Jordi Gil García - Tema 4 - Cuestionario</title>
+		
+	</head>
+	
+	<body>
+		
+		<h1>Cuestionario</h1>
+		
+		<p>
+			<a href="index.html" title="Página principal">
+				Volver a la página principal.
+			</a>
+		</p>
+		
+		<p>
+			A continuación tienes disponible un cuestionario para poner a prueba tus conocimientos sobre el tema.
+		</p>
+		
+		<hr />
+		
+		<form action="" method="post" enctype="text/plain">
+			
+			<div class="divMain">
+				<h3><em>Pregunta 1</em></h3>
+				<p>
+					<label for="pregunta1">¿Cómo se llama la materia que gira en torno a un agujero negro?</label>
+					<br />
+					<select name="pregunta" id="pregunta1">
+						<option value="p1plasma">Disco de plasma</option>
+						<option value="p1horizonte">Horizonte</option>
+						<option value="p1disco">Disco de acreción</option>
+						<option value="p1gigante">Gigante roja</option>
+					</select>
+				</p>
+			</div>
+			
+			<div class="divMain">
+				<h3><em>Pregunta 2</em></h3>
+				<p>
+					¿Qué tipo de estrella forma agujeros negros estelares cuando "muere"?
+				</p>
+					<div id="divPregunta2">
+						<input type="radio" name="pregunta2" id="p2op1" value="p2marron" />
+						<label for="p2op1">Enana marrón</label>
+						<br />
+						<input type="radio" name="pregunta2" id="p2op2" value="p2roja" />
+						<label for="p2op1">Gigante roja</label>
+						<br />
+						<input type="radio" name="pregunta2" id="p2op3" value="p2naranja" />
+						<label for="p2op1">Gigante naranja</label>
+						<br />
+						<input type="radio" name="pregunta2" id="p2op4" value="p2supernova" />
+						<label for="p2op1">Supernova</label>
+					</div>
+			</div>
+			
+			<div class="divMain">
+			<h3><em>Pregunta 3</em></h3>
+				<p>
+					¿Cuáles de las siguientes afirmaciones son verdaderas?
+				</p>
+					<div id="divPregunta3">
+						<input type="checkbox" name="pregunta3A" id="pregunta3A" value="Verdadero" />
+						<label for="pregunta3A">Sólamente la luz puede escapar de un agujero negro.</label>
+						<br />
+						<input type="checkbox" name="pregunta3B" id="pregunta3B" value="Verdadero" />
+						<label for="pregunta3B">No se ha demostrado la existencia de micro agujeros negros.</label>
+						<br />
+						<input type="checkbox" name="pregunta3C" id="pregunta3C" value="Verdadero" />
+						<label for="pregunta3C">Se puede observar directamente un agujero negro.</label>
+						<br />
+						<input type="checkbox" name="pregunta3D" id="pregunta3D" value="Verdadero" />
+						<label for="pregunta3D">La luz alrededor de un agujero negro se percibe distorsionada.</label>
+						<br />
+						<input type="checkbox" name="pregunta3E" id="pregunta3E" value="Verdadero" />
+						<label for="pregunta3E">Un cuásar es extremadamente brillante, pero hay objetos que lo son incluso más.</label>
+						<br />
+						<input type="checkbox" name="pregunta3F" id="pregunta3F" value="Verdadero" />
+						<label for="pregunta3F">Se espera que nuestro Sol no llegará a convertirse en una gigante roja.</label>
+					</div>
+			</div>
+			
+			<p class="divMain">
+				<input type="submit" value="Enviar respuestas" />
+				<input type="reset" value="Restablecer" />
+			</p>
+			
+		</form>
+		
+	</body>
+	
+</html>
