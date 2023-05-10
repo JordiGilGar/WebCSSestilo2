@@ -8,13 +8,9 @@
 		<!-- La parte fija opcional -->
 		<language>es-ES</language>
 		<image>
-			<title>Título de la Imagen</title>
+			<title>RSS</title>
 			<url>https://jordigilgar.github.io/WebCSSestilo2/feedlogo.png</url>
-			<link><item>
-			<title>Galería</title>
-			<link>https://jordigilgar.github.io/WebCSSestilo2/index.html</link>
-			<description>Galería donde ver diversas imágenes.</description>
-		</item></link>
+			<link>https://jordigilgar.github.io/WebCSSestilo2/</link>
 			<width>90</width>
 			<height>36</height>
 		</image>
