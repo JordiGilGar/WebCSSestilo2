@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- La parte fija del fichero xml correspondiente a un rss -->
+	<rss version="2.0">
+	<channel>
+		<title>Feed de Jordi Gil</title>
+		<link>https://jordigilgar.github.io/WebCSSestilo2/feed</link>
+		<description>Feed RSS sobre mi página web</description>
+		<!-- La parte fija opcional -->
+		<language>es-ES</language>
+		<image>
+			<title>Título de la Imagen</title>
+			<url>https://jordigilgar.github.io/WebCSSestilo2/feedlogo.png</url>
+			<link><item>
+			<title>Galería</title>
+			<link>https://jordigilgar.github.io/WebCSSestilo2/index.html</link>
+			<description>Galería donde ver diversas imágenes.</description>
+		</item></link>
+			<width>90</width>
+			<height>36</height>
+		</image>
+	<!-- La parte variable, la que corresponde a cada noticia o ítem -->
+		<item>
+			<title>Página principal</title>
+			<link>https://jordigilgar.github.io/WebCSSestilo2/index.html</link>
+			<description>Página principal que contiene el índice e información general.</description>
+		</item>
+		<item>
+			<title>Galería</title>
+			<link>https://jordigilgar.github.io/WebCSSestilo2/galeria.html</link>
+			<description>Galería donde ver diversas imágenes.</description>
+		</item>
+		<item>
+			<title>Cuestionario</title>
+			<link>https://jordigilgar.github.io/WebCSSestilo2/cuestionario.html</link>
+			<description>Cuestionario del tema.</description>
+		</item>
+	</channel>
+</rss>
